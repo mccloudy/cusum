@@ -48,9 +48,6 @@ if __name__ == "__main__":
    d2 = utils.norm_by_max(d2)
    print "\"Smoothed\" Euclidian Distance: ", euc_day_sim(d1, d2)
 
-#   plt.plot(d1, "-rx")
-#   plt.plot(d2, "-go")
-#   plt.show()
    mydtw = mlpy.Dtw(onlydist=True)
    print "Dynamic Time Warp Distance: ", mydtw.compute(d1, d2)
 
