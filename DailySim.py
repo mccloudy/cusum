@@ -1,11 +1,8 @@
 #!/usr/bin/python
 
 import math
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
 import mlpy
 import numpy as np
-from scipy.interpolate import spline,interp1d
 
 import utils
 
